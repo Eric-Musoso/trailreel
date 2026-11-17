@@ -1,0 +1,2 @@
+# Keep LF everywhere (files must stay byte-identical with the Floot copy)
+* text=auto eol=lf

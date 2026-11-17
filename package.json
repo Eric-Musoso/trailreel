@@ -1,0 +1,30 @@
+{
+  "name": "trailreel",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Turn GPS activities into 3D flyover videos (Relive-style), built on free/open APIs.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@garmin/fitsdk": "^21.218.0",
+    "@tmcw/togeojson": "^7.1.3",
+    "exifr": "^7.1.3",
+    "heic-to": "^1.6.7",
+    "maplibre-gl": "^6.16.0",
+    "mp4-muxer": "^5.2.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
